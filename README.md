@@ -19,6 +19,7 @@ large window size : int
 A combination program that converts the above binary masks to a single .raw file. Also allows basic 3d model manipulation like downsampling, kernaled erosion/dilation, and rudimentary path briding. 
 USAGE:
  > python tiffToRaw.py {inputFolder} {outputFolder} {processingMethod="morphological"}
+
 inputFolder : str
     Path to the binary mask folder
 outputFolder : str
